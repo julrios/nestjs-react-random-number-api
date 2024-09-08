@@ -1,4 +1,4 @@
-# Proyecto de Generación de Números Aleatorios
+# Generación de Números Aleatorios con NestJS y React
 
 Este proyecto implementa una aplicación web que genera números aleatorios entre 1 y 100, utilizando un backend en **NestJS** y un frontend en **React**. La aplicación también incluye una animación que muestra números que varían hasta llegar al valor generado aleatoriamente por el backend.
 
