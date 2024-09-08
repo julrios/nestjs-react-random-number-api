@@ -41,7 +41,7 @@ npm install
 
 ### 3. Ejecutar el proyecto
 
-El proyecto utiliza `concurrently` para ejecutar tanto el backend como el frontend simultáneamente. Desde el directorio raíz del proyecto, ejecutá el siguiente comando:
+El proyecto utiliza **`concurrently`** para ejecutar tanto el backend como el frontend simultáneamente. Desde el directorio raíz del proyecto, ejecutá el siguiente comando:
 
 ```bash
 npm start
@@ -52,7 +52,7 @@ npm start
 
 ## Interacción con la API
 
-La API tiene un endpoint POST /random que genera un número aleatorio entre 1 y 100. Podés interactuar con la API directamente usando herramientas como Postman o desde el frontend a través del botón que realiza una solicitud.
+La API tiene un endpoint **`POST /random`** que genera un número aleatorio entre 1 y 100. Podés interactuar con la API directamente usando herramientas como Postman o desde el frontend a través del botón que realiza una solicitud.
 
 ## Funcionalidades del Frontend
 
