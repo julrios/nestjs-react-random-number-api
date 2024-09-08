@@ -19,25 +19,33 @@ El proyecto tiene dos carpetas principales:
 
 ### 1. Clonar el repositorio
 
-`git clone https://github.com/julrios/nestjs-react-random-number-api`
+```bash
+git clone https://github.com/julrios/nestjs-react-random-number-api
+```
 
 ### 2. Instalar dependencias
 
 #### Backend
 
-`cd backend`
-`npm install`
+```bash
+cd backend
+npm install
+```
 
 #### Frontend
 
-`cd ../frontend`
-`npm install`
+```bash
+cd ../frontend
+npm install
+```
 
 ### 3. Ejecutar el proyecto
 
 El proyecto utiliza `concurrently` para ejecutar tanto el backend como el frontend simultáneamente. Desde el directorio raíz del proyecto, ejecutá el siguiente comando:
 
-`npm start`
+```bash
+npm start
+```
 
 - El backend estará disponible en http://localhost:5000.
 - El frontend estará disponible en http://localhost:3000.
@@ -56,7 +64,7 @@ La API tiene un endpoint POST /random que genera un número aleatorio entre 1 y 
 
 ### Backend
 
-- **NestJS**: El backend está desarrollado utilizando el framework NestJS, con una ruta **`POST /random`** que genera y devuelve un número aleatorio en formato JSON: { "value": <número> }.
+- **NestJS**: El backend está desarrollado utilizando el framework NestJS, con una ruta **`POST /random`** que genera y devuelve un número aleatorio en formato JSON: **`{ "value": <número> }`**.
 - **Middleware**: El middleware registra la marca de tiempo de cada solicitud recibida.
 
 ### Frontend
