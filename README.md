@@ -25,6 +25,10 @@ git clone https://github.com/julrios/nestjs-react-random-number-api
 
 ### 2. Instalar dependencias
 
+```bash
+npm install
+```
+
 #### Backend
 
 ```bash
@@ -41,7 +45,13 @@ npm install
 
 ### 3. Ejecutar el proyecto
 
-El proyecto utiliza **`concurrently`** para ejecutar tanto el backend como el frontend simultáneamente. Desde el directorio raíz del proyecto, ejecutá el siguiente comando:
+El proyecto utiliza **`concurrently`** para ejecutar tanto el backend como el frontend simultáneamente. Volvé al directorio raíz:
+
+```bash
+cd ..
+```
+
+Desde el directorio raíz del proyecto, ejecutá el siguiente comando para iniciar el proyecto:
 
 ```bash
 npm start
@@ -54,11 +64,15 @@ npm start
 
 La API tiene un endpoint **`POST /random`** que genera un número aleatorio entre 1 y 100. Podés interactuar con la API directamente usando herramientas como Postman o desde el frontend a través del botón que realiza una solicitud.
 
+![random_number_postman](random_number_postman.jpg)
+
 ## Funcionalidades del Frontend
 
 - Un botón que al hacer click genera un número aleatorio llamando a la API.
 - Una animación de números mientras se genera el número final.
 - Visualización del número generado después de la animación.
+
+![random_number_react](random_number_react.jpg)
 
 ## Documentación del código
 
